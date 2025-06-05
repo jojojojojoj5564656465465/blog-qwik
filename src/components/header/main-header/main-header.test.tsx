@@ -4,7 +4,7 @@ import { Header, HeaderType } from "~/components/header/header";
 import { createDOM } from "../../../../vitest.setup";
 
 describe("MainHeader", () => {
-  test(`[MainHeader Component]: Should be defined`, async () => {
+  test("[MainHeader Component]: Should be defined", async () => {
     expect(MainHeader).toBeDefined();
   });
 
